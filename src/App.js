@@ -1,6 +1,6 @@
 // src/App.js
 import React from 'react';
-import './App.css'; // Import our custom CSS
+import './App.css'; // Make sure this file has the same CSS as your original "mavili" example
 
 function App() {
   return (
@@ -103,6 +103,10 @@ function App() {
           </div>
         </section>
 
+        {/*
+        CONTACT SECTION - now fully matching your "mavili" HTML
+        Make sure .contact, .social-links, etc. classes are defined in App.css
+      */}
         <section id="contact" className="contact">
           <div className="container">
             <div className="section-header">
@@ -112,10 +116,20 @@ function App() {
               <a href="mailto:yusufozjr@gmail.com" title="Email">
                 <i className="fas fa-envelope"></i>
               </a>
-              <a href="https://www.linkedin.com/in/yusuf-oz/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+              <a
+                  href="https://www.linkedin.com/in/yusuf-oz/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="LinkedIn"
+              >
                 <i className="fab fa-linkedin"></i>
               </a>
-              <a href="https://www.instagram.com/yufisjr/" target="_blank" rel="noopener noreferrer" title="Instagram">
+              <a
+                  href="https://www.instagram.com/yufisjr/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Instagram"
+              >
                 <i className="fab fa-instagram"></i>
               </a>
               <a href="tel:+905362925089" title="Phone">
